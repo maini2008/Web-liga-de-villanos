@@ -2,16 +2,17 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #1a1a1a;
     color: #f0f0f0;
+   background: url('https://e1.pxfuel.com/desktop-wallpaper/713/44/desktop-wallpaper-my-hero-academia-scar-league-of-villains.jpg');
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #321e33;
+    background-color: #31103291;
     color: white;
     padding: 100px;
     text-align: center;
-    border-bottom: 3px solid #520096;
+    border-bottom: 3px solid #a80041;
 }
 .container {
     width: 80%;
@@ -26,13 +27,13 @@ section {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-h1, h2, h3 {
-    color: #520096;
+h1, h2, h3{
+    color: #a80041;
     text-align: center;
     margin-bottom: 15px;
 }
 h2 {
-    border-bottom: 2px solid #520096;
+    border-bottom: 2px solid #ce004f;
     padding-bottom: 5px;
 }
 .character-grid {
@@ -53,10 +54,10 @@ h2 {
     border-radius: 60%;
     object-fit: cover;
     margin-bottom: 15px;
-    border: 4px solid #520096;
+    border: 4px solid #a80041;
 }
 .character-card h3 {
-    color: #ff0000;
+    color: #a80041;
     margin-top: 0;
 }
 .quirk-details, .moment-details, .hierarchy-details, .relations-details {
@@ -71,7 +72,7 @@ ul li {
     margin-bottom: 5px;
     padding: 10px;
     border-radius: 5px;
-    border-left: 5px solid #520096;
+    border-left: 5px solid #a80041;
 }
 footer {
     background-color: #321e33;
@@ -79,5 +80,5 @@ footer {
     text-align: center;
     padding: 1rem 0;
     margin-top: 20px;
-    border-top: 3px solid #520096;
+    border-top: 3px solid #a80041;
 }
