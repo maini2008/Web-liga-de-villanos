@@ -1,23 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Crear Cuenta</title>
+    <style>
+        body {
+               font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: url('https://e1.pxfuel.com/desktop-wallpaper/713/44/desktop-wallpaper-my-hero-academia-scar-league-of-villains.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #ff0000;
+        }
+        .container {
+            background-color: rgba(70, 41, 41, 0.9); 
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        h2 {
+            color: #ff0000;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            text-align: left;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ffd2d2;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #e90000;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #ff0000;
+        }
+        .secondary-button {
+            background-color: #ff006a;
+            margin-top: 15px;
+        }
+        .secondary-button:hover {
+            background-color: #025aa5;
+        }
+    </style>
 </head>
 <body>
-    <h2>Crear una nueva cuenta</h2>
-    <form action="procesar_registro.php" method="POST">
-        <label for="nombre">Nombre de usuario:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+    <div class="container">
+        <h2>Crear una nueva cuenta</h2>
+        <form action="procesar_registro.php" method="POST">
+            <label for="nombre">Nombre de usuario:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
 
-        <label for="email">Correo electrónico:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
 
-        <label for="contraseña">Contraseña:</label><br>
-        <input type="password" id="contraseña" name="contraseña" required><br><br>
+            <label for="contraseña">Contraseña:</label><br>
+            <input type="password" id="contraseña" name="contraseña" required><br><br>
 
-        <button type="submit">Registrarse</button>
-    </form>
+            <button type="submit">Registrarse</button>
+        </form>
+        <button class="secondary-button" onclick="location.href='index.html'">Volver a la página</button>
+    </div>
 </body>
 </html>
